@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests
+END
+User.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests/User.cs
+END
+PreLogin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests/PreLogin.cs
+END
+Global.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests/Global.cs
+END
+Messenger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests/Messenger.cs
+END
+Catalog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests/Catalog.cs
+END
+Navigator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Client/Requests/Navigator.cs
+END

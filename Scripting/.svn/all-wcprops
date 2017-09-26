@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/iondeltar/!svn/ver/1/server/trunk/Scripting
+END
+RoflPlugin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/iondeltar/!svn/ver/1/server/trunk/Scripting/RoflPlugin.cs
+END
+IonPluginHost.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/iondeltar/!svn/ver/1/server/trunk/Scripting/IonPluginHost.cs
+END
+IonPlugin.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/iondeltar/!svn/ver/1/server/trunk/Scripting/IonPlugin.cs
+END
+PluginManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/iondeltar/!svn/ver/1/server/trunk/Scripting/PluginManager.cs
+END

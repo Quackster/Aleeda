@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/iondeltar/!svn/ver/1/server/trunk/Net/Messages
+END
+ServerMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/iondeltar/!svn/ver/1/server/trunk/Net/Messages/ServerMessage.cs
+END
+ClientMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/iondeltar/!svn/ver/1/server/trunk/Net/Messages/ClientMessage.cs
+END
+ISerializableObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/iondeltar/!svn/ver/1/server/trunk/Net/Messages/ISerializableObject.cs
+END
+IHabboMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/iondeltar/!svn/ver/1/server/trunk/Net/Messages/IHabboMessage.cs
+END

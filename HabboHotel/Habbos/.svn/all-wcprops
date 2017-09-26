@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Habbos
+END
+Habbo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Habbos/Habbo.cs
+END
+IncorrectLoginException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Habbos/IncorrectLoginException.cs
+END
+ModerationBanException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Habbos/ModerationBanException.cs
+END
+HabboAuthenticator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Habbos/HabboAuthenticator.cs
+END
+HabboManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Habbos/HabboManager.cs
+END

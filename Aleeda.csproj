@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B70C1C31-E268-47C5-A408-5375BBBE4EE5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aleeda</RootNamespace>
+    <AssemblyName>Aleeda</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>Aleeda.Program</StartupObject>
+    <ApplicationIcon>1312414535_com.apple.stocks.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IHIPathfinder-Standalone">
+      <HintPath>..\..\..\..\..\Documents\My Received Files\IHIPathfinder-Standalone.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\ConfigurationModule.cs" />
+    <Compile Include="Core\MySQL\Bool.cs" />
+    <Compile Include="Core\Logging.cs" />
+    <Compile Include="Core\MySQL\Select.cs" />
+    <Compile Include="Core\MySQL\Update.cs" />
+    <Compile Include="HabboHotel\Achievements\AchievementManager.cs" />
+    <Compile Include="HabboHotel\Cache\Catalogue\CatalogueIndex.cs" />
+    <Compile Include="HabboHotel\Cache\Catalogue\cataloguePages.cs" />
+    <Compile Include="HabboHotel\Cache\Catalogue\catalogueItems.cs" />
+    <Compile Include="HabboHotel\Cache\Items\FloorItems.cs" />
+    <Compile Include="HabboHotel\Cache\Items\WallItems.cs" />
+    <Compile Include="HabboHotel\Cache\Rooms\Misc\Commands.cs" />
+    <Compile Include="HabboHotel\Cache\Rooms\RoomFavourites.cs" />
+    <Compile Include="HabboHotel\Cache\Rooms\RoomBots.cs" />
+    <Compile Include="HabboHotel\Cache\Rooms\PrivateRooms.cs" />
+    <Compile Include="HabboHotel\Cache\GetCache.cs" />
+    <Compile Include="HabboHotel\Catalog\Catalog.cs" />
+    <Compile Include="HabboHotel\Catalog\CatalogPage.cs" />
+    <Compile Include="HabboHotel\Catalog\CatalogProduct.cs" />
+    <Compile Include="HabboHotel\Habbos\HabboFunctions.cs" />
+    <Compile Include="HabboHotel\Misc\Misc.cs" />
+    <Compile Include="HabboHotel\Client\Requests\Catalog.cs" />
+    <Compile Include="HabboHotel\Client\Requests\PublicRooms.cs" />
+    <Compile Include="HabboHotel\Client\Requests\RoomUser.cs" />
+    <Compile Include="HabboHotel\Client\Requests\Rooms.cs" />
+    <Compile Include="HabboHotel\Client\Requests\Navigator.cs" />
+    <Compile Include="HabboHotel\Client\Requests\PreLogin.cs" />
+    <Compile Include="HabboHotel\Messenger\MessengerComponent.cs" />
+    <Compile Include="HabboHotel\Messenger\MessengerBuddy.cs" />
+    <Compile Include="HabboHotel\Messenger\MessengerManager.cs" />
+    <Compile Include="HabboHotel\Cache\privileges.cs" />
+    <Compile Include="HabboHotel\Pathfinder\Coord.cs" />
+    <Compile Include="HabboHotel\Pathfinder\IPathfinder.cs" />
+    <Compile Include="HabboHotel\Pathfinder\Pathfinder.cs" />
+    <Compile Include="HabboHotel\Pathfinder\TileState.cs" />
+    <Compile Include="HabboHotel\Rooms\User\RoomUserFunctions.cs" />
+    <Compile Include="HabboHotel\Rooms\User\CommandHandler.cs" />
+    <Compile Include="AleedaEnvironment.cs" />
+    <Compile Include="HabboHotel\Client\ClientMessageHandler.cs" />
+    <Compile Include="HabboHotel\Client\GameClient.cs" />
+    <Compile Include="HabboHotel\Habbos\Global.cs" />
+    <Compile Include="HabboHotel\Client\Requests\Messenger.cs" />
+    <Compile Include="HabboHotel\Client\Requests\User.cs" />
+    <Compile Include="HabboHotel\Client\GameClientManager.cs" />
+    <Compile Include="HabboHotel\Client\Utilities\UserPropertiesDecoder.cs" />
+    <Compile Include="HabboHotel\Habbos\HabboAuthenticator.cs" />
+    <Compile Include="HabboHotel\Habbos\ModerationBanException.cs" />
+    <Compile Include="HabboHotel\Habbos\IncorrectLoginException.cs" />
+    <Compile Include="HabboHotel\Rooms\Serializing\RoomSerialize.cs" />
+    <Compile Include="HabboHotel\RoomUser\UserInventory.cs" />
+    <Compile Include="HabboHotel\RoomUser\RoomUser.cs" />
+    <Compile Include="Net\Connections\IonTcpConnection.cs" />
+    <Compile Include="Net\Connections\IonTcpConnectionFactory.cs" />
+    <Compile Include="Net\Connections\IonTcpConnectionListener.cs" />
+    <Compile Include="Net\Connections\IonTcpConnectionManager.cs" />
+    <Compile Include="Net\Messages\ClientMessage.cs" />
+    <Compile Include="Net\Messages\IHabboMessage.cs" />
+    <Compile Include="Net\Messages\ISerializableObject.cs" />
+    <Compile Include="Net\Messages\ServerMessage.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="HabboHotel\HabboHotel.cs" />
+    <Compile Include="HabboHotel\Habbos\Habbo.cs" />
+    <Compile Include="HabboHotel\Habbos\HabboManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripting\IonPlugin.cs" />
+    <Compile Include="Scripting\IonPluginHost.cs" />
+    <Compile Include="Scripting\PluginManager.cs" />
+    <Compile Include="Scripting\RoflPlugin.cs" />
+    <Compile Include="Security\RC4\HabboHexRC4.cs" />
+    <Compile Include="Specialized\Encoding\Base64Encoding.cs" />
+    <Compile Include="Specialized\Encoding\OldB64.cs" />
+    <Compile Include="Specialized\Encoding\wE.cs" />
+    <Compile Include="Specialized\Encoding\WireEncoding.cs" />
+    <Compile Include="Specialized\Utilities\ByteUtility.cs" />
+    <Compile Include="Specialized\Utilities\KeyValueDictionary.cs" />
+    <Compile Include="Storage\Database.cs" />
+    <Compile Include="Storage\DatabaseClient.cs" />
+    <Compile Include="Storage\DatabaseException.cs" />
+    <Compile Include="Storage\DatabaseManager.cs" />
+    <Compile Include="Storage\DatabaseServer.cs" />
+    <Compile Include="Storage\IDataObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1312414535_com.apple.stocks.ico" />
+    <Content Include="icon.ico" />
+    <Content Include="Debug\Message_Response.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HabboHotel\Items\" />
+    <Folder Include="Specialized\Collections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

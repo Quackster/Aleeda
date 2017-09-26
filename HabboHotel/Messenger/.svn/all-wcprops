@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Messenger
+END
+MessengerComponent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Messenger/MessengerComponent.cs
+END
+MessengerBuddy.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Messenger/MessengerBuddy.cs
+END
+MessengerManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/iondeltar/!svn/ver/1/server/trunk/HabboHotel/Messenger/MessengerManager.cs
+END
