@@ -1,0 +1,7 @@
+C:\Users\Alex\Documents\GitHub\Aleeda\bin\Debug\Aleeda.exe.config
+C:\Users\Alex\Documents\GitHub\Aleeda\obj\Debug\Aleeda.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\GitHub\Aleeda\bin\Debug\Aleeda.exe
+C:\Users\Alex\Documents\GitHub\Aleeda\bin\Debug\Aleeda.pdb
+C:\Users\Alex\Documents\GitHub\Aleeda\bin\Debug\MySql.Data.dll
+C:\Users\Alex\Documents\GitHub\Aleeda\obj\Debug\Aleeda.exe
+C:\Users\Alex\Documents\GitHub\Aleeda\obj\Debug\Aleeda.pdb
